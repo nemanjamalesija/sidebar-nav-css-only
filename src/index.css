@@ -83,7 +83,7 @@ a:visited {
     display: none;
   }
 
-  .nav:target + .link-display-nav .backdrop {
+  .nav:target + .link-display-nav + .backdrop {
     position: fixed;
     display: block;
     background-color: rgba(21, 22, 22, 0.755);
